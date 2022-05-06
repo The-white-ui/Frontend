@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index.add.css" />
+    <title>White-UI | Buttons component</title>
+  </head>
+  <body class="w-100">
+    <div class="navbar bg-secondary text-white">
+      <nav class="container p-1">
+        <a href="/index.html"><h1 class="site-title">WhiteCode-FW</h1></a>
+        <ul class="display-f">
+          <li class="ml-1"><a href="#">About</a></li>
+          <li class="ml-1">
+            <a href="#">Components</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="w-100">
+        <div class="display-f">
+          <div class="side-bar flex-1 bg-secondary-light-9 p-1 pl-2">
+            <ul class="display-f flex-direction-column w-100">
+              <li class="font-bold font-md mb-2">
+                Get Started
+                <ul class="ml-1 font-regular text-gray">
+                  <li class="mt-1"><a href="get-started.html" class="text-black">Introduction</a></li>
+                  <li class="mt-1"><a href="#">Download</a></li>
+                  <li class="mt-1"><a href="#">Explore</a></li>
+                </ul>
+              </li>
+              <li class="font-bold font-md mb-2">
+                Layouts
+                <ul class="ml-1 font-regular text-gray">
+                  <li class="mt-1"><a href="#">Grid</a></li>
+                  <li class="mt-1"><a href="container.html">container</a></li>
+                  <li class="mt-1"><a href="#">BreakPoints</a></li>
+                </ul>
+              </li>
+              <li class="font-bold font-md mb-2">
+                Components
+                <ul class="ml-1 font-regular text-gray">
+                  <li class="mt-1"><a href="#">Buttons</a></li>
+                  <li class="mt-1"><a href="#">Card</a></li>
+                  <li class="mt-1"><a href="#">Navbar</a></li>
+                </ul>
+              </li>
+              <li class="font-bold font-md mb-2">
+                Forms
+                <ul class="ml-1 font-regular text-gray">
+                  <li class="mt-1"><a href="#">Overview</a></li>
+                  <li class="mt-1"><a href="#">Inputs</a></li>
+                  <li class="mt-1"><a href="#">Validation</a></li>
+                </ul>
+              </li>
+              <li class="font-bold font-md mb-2">
+                Github
+                <ul class="ml-1 font-regular text-gray">
+                  <li class="mt-1"><a href="#">README</a></li>
+                  <li class="mt-1"><a href="#">Contributors</a></li>
+                  <li class="mt-1"><a href="#">Contribute</a></li>
+                </ul>
+              </li>
+          </div>
+          <div class="content flex-4">
+            <div class="container mt-2">
+              <div>
+                <header class="w-75">
+                    <h1 class="font-lg font-bold">Buttons</h1>
+                    <p class="font-regular mt-1 text-gray">
+                        Use White-UI custom button styles in forms, and more with support for multiple sizes, background color, and more.
+                    </p>
+                  </header>
+                  <div class="content-links w-75 mt-5">
+                    <div>
+                      <h1 class="font-lg font-xtra-bold mb-1">Example Buttons</h1>
+                      <div class="card">
+                        <a href="#" class="btn  mb-1">Default</a>
+                        <a href="#" class="btn-primary text-white  mb-1">Primary</a>
+                        <a href="#" class="btn-secondary text-white mb-1">Secondary</a>
+                        <a href="#" class="btn-error text-white mb-1">Error</a>
+                        <a href="#" class="btn-info mb-1">info</a>
+                        <a href="#" class="btn-outlined-purple text-purple text-hover-white mb-1">Purple</a>
+                        <a href="#" class="btn-outlined-orange text-orange text-hover-white mb-1">Orange</a>
+                        <a href="#" class="btn-complement-yellow mb-1 br-none">Yellow</a>
+                      </div>
+                    </div>
+                      <div
+                        class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup"
+                      >
+                      <!-- @Todo -->
+                      <!-- <button class="btn btn-secondary">copy</button> -->
+                        <pre class="language-markup">
+                            <code class="language-markup"> 
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>default<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-primary<span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-secondary</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-error</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-info</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-outlined-purple</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-outlined-orange</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-complement-purple br-none</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-complement-primary br-none</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                            </code>
+                        </pre>
+                      </div>
+                  </div>
+              </div>
+              <div>
+                <header class="w-75">
+                    <h1 class="font-lg font-bold mt-3">Button tags</h1>
+                    <p class="font-regular mt-1">
+                        The <code class="text-red">.btn</code> classes are designed to be used with the <code class="text-red">&lt;button&gt;</code> element. However, you can also use these classes on <code class="text-red">&lt;a&gt;</code> or <code class="text-red">&lt;input/&gt;</code> elements (though some browsers may apply a slightly different rendering).
+                         When using button classes on <code class="text-red">&lt;a&gt;</code> elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a <code class="text-red">role<span class="text-gray">="</span>button<span class="text-gray">"</span></code> to appropriately convey their purpose to assistive technologies such as screen readers.
+                    </p>
+                  </header>
+                  <div class="content-links w-75 mt-2">
+                    <div>
+                      <div class="card">
+                        <a href="#" class="btn-secondary text-white  mb-1">Link</a>
+                        <button type="submit" class="btn-secondary text-white  mb-1">Button</button>
+                        <input type="button" class="btn-secondary text-white  mb-1" value="Input" />
+                        <input type="submit" class="btn-secondary text-white  mb-1" value="Submit" />
+                        <input type="reset" class="btn-secondary text-white  mb-1" value="Reset" />
+                      </div>
+                    </div>
+                      <div
+                        class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup"
+                      >
+                      <!-- @Todo -->
+                      <!-- <button class="btn btn-secondary">copy</button> -->
+                        <pre class="language-markup">
+                            <code class="language-markup"> 
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-secondary text-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Link<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>a</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-secondary text-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Button<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>input</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-secondary text-white </span class="text-gray">"</span></span> <span class="text-gray"></span></span><span class="text-secondary">value</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>Input</span class="text-gray">"</span></span><span class="text-gray"></span></span><span class="text-red"><span class="text-red"><span class="text-gray">/</span></span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>input</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-secondary text-white </span class="text-gray">"</span></span> <span class="text-gray"></span></span><span class="text-secondary">value</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>Submit</span class="text-gray">"</span></span><span class="text-gray"></span></span><span class="text-red"><span class="text-red"><span class="text-gray">/</span></span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>input</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>reset<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-secondary text-white </span class="text-gray">"</span></span> <span class="text-gray"></span></span><span class="text-secondary">value</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>Reset</span class="text-gray">"</span></span><span class="text-gray"></span></span><span class="text-red"><span class="text-red"><span class="text-gray">/</span></span><span class="text-gray">&gt;</span></span></span>
+                             </code>
+                        </pre>
+                      </div>
+                  </div>
+              </div>
+              <div>
+                <header class="w-75">
+                    <h1 class="font-lg font-bold mt-3">Outline buttons</h1>
+                    <p class="font-regular mt-1">
+                        In need of a button, but not the hefty background colors they bring? Replace the default modifier classes
+                        with the <code class="text-red">.btn-outline-*</code> classes are designed to be used with the <code class="text-red">&lt;button&gt;</code> element.
+                    </p>
+                  </header>
+                  <div class="content-links w-75 mt-2">
+                    <div>
+                      <div class="card">
+                        <button type="submit" class="btn-outlined-secondary text-secondary text-hover-white  mb-1">Secondary</button>
+                        <button type="submit" class="btn-outlined-primary text-primary text-hover-white  mb-1">Primary</button>
+                        <button type="submit" class="btn-outlined-purple text-purple text-hover-white  mb-1">Purple</button>
+                        <button type="submit" class="btn-outlined-yellow text-yellow text-hover-white  mb-1">Yellow</button>
+                        <button type="submit" class="btn-outlined-black text-black text-hover-white  mb-1">Black</button>
+                        <button type="submit" class="btn-outlined-info text-info text-hover-white  mb-1">Info</button>
+                        <button type="submit" class="btn-outlined-red text-red text-hover-white  mb-1">Red</button>
+                      </div>
+                    </div>
+                      <div
+                        class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup"
+                      >
+                      <!-- @Todo -->
+                      <!-- <button class="btn btn-secondary">copy</button> -->
+                        <pre class="language-markup">
+                            <code class="language-markup">
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-secondary text-secondary text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Secondary<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-primary text-primary text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Primary<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-purple text-purple text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Purple<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-yellow text-yellow text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Yellow<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-black text-balck text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Balck<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-info text-info text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Info<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-outlined-red text-red text-hover-white <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Red<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             </code>
+                        </pre>
+                      </div>
+                  </div>
+              </div>
+              <div>
+                <header class="w-75">
+                    <h1 class="font-lg font-bold mt-3">Complement buttons</h1>
+                    <p class="font-regular mt-1">
+                        In need of a button to complement your project, Replace the default modifier classes
+                        with the <code class="text-red">.btn-complement*</code> classes are designed to be used with the <code class="text-red">&lt;button&gt;</code> element.
+                    </p>
+                  </header>
+                  <div class="content-links w-75 mt-2">
+                    <div>
+                      <div class="card">
+                        <button type="submit" class="btn-complement-secondary mb-1">Secondary</button>
+                        <button type="button" class="btn-complement-primary mb-1">Primary</button>
+                        <button type="submit" class="btn-complement-purple mb-1">Purple</button>
+                        <button type="reset" class="btn-complement-yellow mb-1">Yellow</button>
+                        <button type="reset" class="btn-complement-black mb-1">Black</button>
+                        <button type="reset" class="btn-complement-info mb-1">Info</button>
+                        <button type="reset" class="btn-complement-red mb-1">Red</button>
+                      </div>
+                    </div>
+                      <div
+                        class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup"
+                      >
+                      <!-- @Todo -->
+                      <!-- <button class="btn btn-secondary">copy</button> -->
+                        <pre class="language-markup">
+                            <code class="language-markup">
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-secondary <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Secondary<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-primary <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Primary<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-purple <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Purple<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-yellow <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Yellow<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-black <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Black<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-info <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Info<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>submit<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-complement-red <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Red<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                             </code>
+                        </pre>
+                      </div>
+                  </div>
+              </div>
+              <div>
+                <header class="w-75">
+                    <h1 class="font-lg font-bold mt-3">Buttons Class</h1>
+                    <p class="font-regular mt-1">
+                        Available buttons classes that you can modify with your website by adding its to your <span class="text-red">&lt;button <span class="text-blue">class=""</span>&gt;</span> class name. Available classes are:
+                    </p>
+                  </header>
+                  <div class="content-links w-75 mt-2">
+                      <div
+                        class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup"
+                      >
+                        <pre class="language-markup">
+                            <code class="language-markup">
+                              <div class="row">
+                                <div class="col-6-sm col-4-md col-4-lg">
+                                  <code class="text-gray">.btn</code>
+                                  <code class="text-primary">.btn-primary</code>
+                                  <code class="text-secondary">.btn-secondary</code>
+                                  <code class="text-info">.btn-info</code>
+                                  <code class="text-error">.btn-error</code>
+                                  <code class="text-blue">.btn-blue</code>
+                                  <code class="text-yellow">.btn-yellow</code>
+                                  <code class="text-red">.btn-red</code>
+                                  <code class="text-green">.btn-green</code>
+                                  <code class="text-orange">.btn-orange</code>
+                                  <code class="text-purple">.btn-purple</code>
+                                  <code class="text-gray">.btn-gray</code>
+                                  <code class="text-black">.btn-black</code>
+                                  <code class="text-white">.btn-white</code>
+                                </div>
+                                <div class="col-6-sm col-4-md col-4-lg">
+                                  <code class="text-primary">.btn-complement-primary</code>
+                                  <code class="text-secondary">.btn-complement-secondary</code>
+                                  <code class="text-info">.btn-complement-info</code>
+                                  <code class="text-error">.btn-complement-error</code>
+                                  <code class="text-blue">.btn-complement-blue</code>
+                                  <code class="text-yellow">.btn-complement-yellow</code>
+                                  <code class="text-red">.btn-complement-red</code>
+                                  <code class="text-green">.btn-complement-green</code>
+                                  <code class="text-orange">.btn-complement-orange</code>
+                                  <code class="text-purple">.btn-complement-purple</code>
+                                  <code class="text-gray">.btn-complement-gray</code>
+                                  <code class="text-black">.btn-complement-black</code>
+                                  <code class="text-white">.btn-complement-white</code>
+                                </div>
+                                <div class="col-6-sm col-4-md col-4-lg">
+                                  <code class="text-primary">.btn-outlined-primary</code>
+                                  <code class="text-secondary">.btn-outlined-secondary</code>
+                                  <code class="text-info">.btn-outlined-info</code>
+                                  <code class="text-error">.btn-outlined-error</code>
+                                  <code class="text-blue">.btn-outlined-blue</code>
+                                  <code class="text-yellow">.btn-outlined-yellow</code>
+                                  <code class="text-red">.btn-outlined-red</code>
+                                  <code class="text-green">.btn-outlined-green</code>
+                                  <code class="text-orange">.btn-outlined-orange</code>
+                                  <code class="text-purple">.btn-outlined-purple</code>
+                                  <code class="text-gray">.btn-outlined-gray</code>
+                                  <code class="text-black">.btn-outlined-black</code>
+                                  <code class="text-white">.btn-outlined-white</code>
+                                </div>
+                              </div>
+                             </code>
+                        </pre>
+                      </div>
+                    </div>
+                    <button class="btn btn-outlined-black text-hover-white mt-3 mb-5">Edit on Github</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

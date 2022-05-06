@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White-UICSS | Container</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index.add.css" />
+</head>
+<body>
+    
+    <div class="navbar bg-secondary text-white">
+        <nav class="container p-1">
+          <a href="/index.html">h1 class="site-title">WhiteCode-FW</h1></a>
+          <ul class="display-f">
+            <li class="ml-1"><a href="#">About</a></li>
+            <li class="ml-1">
+              <a href="#">Components</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="w-100">
+          <div class="display-f">
+            <div class="side-bar flex-1 bg-secondary-light-9 p-1 pl-2">
+                <ul class="display-f flex-direction-column w-100">
+                  <li class="font-bold font-md mb-2">
+                    Get Started
+                    <ul class="ml-1 font-regular text-gray">
+                      <li class="mt-1"><a href="get-started.html" class="text-black">Introduction</a></li>
+                      <li class="mt-1"><a href="#">Download</a></li>
+                      <li class="mt-1"><a href="#">Explore</a></li>
+                    </ul>
+                  </li>
+                  <li class="font-bold font-md mb-2">
+                    Layouts
+                    <ul class="ml-1 font-regular text-gray">
+                      <li class="mt-1"><a href="grid.html">Grid</a></li>
+                      <li class="mt-1"><a href="container.html">container</a></li>
+                      <li class="mt-1"><a href="breakpoint.html">BreakPoints</a></li>
+                    </ul>
+                  </li>
+                  <li class="font-bold font-md mb-2">
+                    Components
+                    <ul class="ml-1 font-regular text-gray">
+                      <li class="mt-1"><a href="buttons.html">Buttons</a></li>
+                      <li class="mt-1"><a href="#">Card</a></li>
+                      <li class="mt-1"><a href="#">Navbar</a></li>
+                    </ul>
+                  </li>
+                  <li class="font-bold font-md mb-2">
+                    Forms
+                    <ul class="ml-1 font-regular text-gray">
+                      <li class="mt-1"><a href="#">Overview</a></li>
+                      <li class="mt-1"><a href="#">Inputs</a></li>
+                      <li class="mt-1"><a href="#">Validation</a></li>
+                    </ul>
+                  </li>
+                  <li class="font-bold font-md mb-2">
+                    Github
+                    <ul class="ml-1 font-regular text-gray">
+                      <li class="mt-1"><a href="#">README</a></li>
+                      <li class="mt-1"><a href="#">Contributors</a></li>
+                      <li class="mt-1"><a href="#">Contribute</a></li>
+                    </ul>
+                  </li>
+              </div>
+              <div class="content flex-4">
+                  <div class="container mt-2">
+                    <div>
+                        <header class="w-75">
+                            <h1 class="font-lg font-bold">Buttons</h1>
+                            <p class="font-regular mt-1 text-gray">
+                                Use White-UI custom button styles in forms, and more with support for multiple sizes, background color, and more.
+                            </p>
+                          </header>
+                          <div class="content-links w-75 mt-5">
+                            <div>
+                              <h1 class="font-lg font-xtra-bold mb-1">Example Buttons</h1>
+                              <div class="card">
+                                <a href="#" class="btn  mb-1">Default</a>
+                                <a href="#" class="btn-primary text-white  mb-1">Primary</a>
+                                <a href="#" class="btn-secondary text-white mb-1">Secondary</a>
+                                <a href="#" class="btn-error text-white mb-1">Error</a>
+                                <a href="#" class="btn-info mb-1">info</a>
+                                <a href="#" class="btn-outlined-purple text-purple text-hover-white mb-1">Purple</a>
+                                <a href="#" class="btn-outlined-orange text-orange text-hover-white mb-1">Orange</a>
+                                <a href="#" class="btn-complement-yellow mb-1 br-none">Yellow</a>
+                              </div>
+                            </div>
+                              <div
+                                class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup"
+                              >
+                              <!-- @Todo -->
+                              <!-- <button class="btn btn-secondary">copy</button> -->
+                                <pre class="language-markup">
+                                    <code class="language-markup"> 
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn <span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>default<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-primary<span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-secondary</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-error</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-info</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-outlined-purple</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-outlined-orange</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-complement-purple br-none</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                     <span><span class="token tag"><span class="text-red"><span>&lt;</span>button</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button<span class="text-gray">"</span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn btn-complement-primary br-none</span class="text-gray">"</span></span><span class="text-gray">&gt;</span></span>Click me<span class="text-red"><span class="text-red"><span class="text-gray">&lt;/</span>button</span><span class="text-gray">&gt;</span></span></span>
+                                    </code>
+                                </pre>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+</body>
+</html>
