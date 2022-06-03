@@ -72,7 +72,7 @@ code pre {
     display: block;
     cursor: pointer;
   }
-  .navbar {
+  .navbar.white-ui {
     position: static;
   }
   nav ul {

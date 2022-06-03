@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>White-UICSS | Navbar</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/white-uicss@1.0.1/white-uicss.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/white-uicss@1.0.3/white-uicss.min.css" />
     <link rel="stylesheet" href="./css/index.add.css" />
 </head>
 
@@ -43,9 +43,8 @@
                         Get Started
                         <ul class="ml-1 font-normal text-gray">
                             <li class="mt-1"><a href="get-started.html" class="text-black">Introduction</a></li>
-                            <li class="mt-1"><a href="white-uicss.rar" target="_blank" rel="noopener noreferrer"
-                                    download="white-uicss.rar">Download</a></li>
-                            <li class="mt-1"><a href="#">Explore</a></li>
+                            <li class="mt-1"><a href="download-source-code.html">Download</a></li>
+                            <li class="mt-1"><a href="explore.html">Explore</a></li>
                         </ul>
                     </li>
                     <li class="font-bold font-md mb-2">
@@ -75,7 +74,9 @@
                     <li class="font-bold font-md mb-2">
                         Github
                         <ul class="ml-1 font-normal text-gray">
-                            <li class="mt-1"><a href="#">README</a></li>
+                            <li class="mt-1"><a
+                                    href="https://github.com/The-white-ui/.github/blob/main/profile/README.md"
+                                    target="_blank" rel="noopener noreferrer">README</a></li>
                             <li class="mt-1"><a href="#">Contributors</a></li>
                             <li class="mt-1"><a href="https://github.com/The-white-ui/Frontend" target="_blank"
                                     rel="noopener noreferrer">Contribute</a></li>
@@ -103,14 +104,17 @@
                         <div class="mt-2">
                             <!-- Example Buttons -->
                             <div>
-                                <h1 class="font-lg font-xtra-bold mb-1">Card Codes</h1>
+                                <h1 class="font-lg font-xtra-bold mb-1">Navbar Codes</h1>
                                 <div class="card br-none">
                                     <div class="navbar bg-gray-light-7 br-none">
                                         <div class="site-title">Navbar</div>
-                                        <ul class="display-f">
+                                        <div class="collapse-container">
+                                            <button id="collapse" class="active">|||</button>
+                                        </div>
+                                        <ul id="navbar-menus">
                                             <li><a href="#">Home</a></li>
-                                            <li class="ml-1"><a href="#">About</a></li>
-                                            <li class="ml-1"><a href="#">Disable</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Disable</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -121,18 +125,72 @@
                                     <code class="language-markup">
                                         <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>navbar<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
                                             <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>site-title<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Navbar<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
-                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>display-f<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>collapse-container<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="text-secondary">id</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>collapse<span class="text-gray">"</span></span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>active<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span><span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="text-secondary">id</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>navbar-menus<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
                                                 <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
                                                     <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
                                                         Home
                                                     <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
                                                 <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
-                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>ml-1<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
                                                     <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
                                                         About
                                                     <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
                                                 <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
-                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>ml-1<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                        Disable
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <!-- Example Buttons -->
+                            <div>
+                                <h1 class="font-lg font-xtra-bold mb-1">Navbar Codes</h1>
+                                <div class="card br-none">
+                                    <div class="navbar-black br-none text-white">
+                                        <div class="site-title">Navbar</div>
+                                        <input type="checkbox" class="menu-btn" id="menu-btn" title="checkbox">
+                                        <label class="menu-icon" for="menu-btn">
+                                            <span class="nav-icon"></span>
+                                        </label>
+                                        <ul class="menu-items">
+                                            <li><a href="#">Home</a></li>
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Disable</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Example Card codes -->
+                            <div class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup">
+                                <pre class="language-markup">
+                                    <code class="language-markup">
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>navbar<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red">&lt;input</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>checkbox<span class="text-gray">"</span></span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>menu-btn<span class="text-gray">"</span></span></span> <span class="text-secondary">id</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>menu-btn<span class="text-gray">"</span></span></span>/&gt;</span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>site-title<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Navbar<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>menu-icon<span class="text-gray">"</span></span></span> <span class="text-secondary">for</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>menu-btn<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>nav-icon<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span><span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>menu-items<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                        Home
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                        About
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">&gt;</span></span>
                                                     <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="text-secondary">href</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>#<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
                                                         Disable
                                                     <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
@@ -156,7 +214,7 @@
     </div>
     </div>
     <!-- Main section ends here -->
-    <script src="./js/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/white-uicss@1.0.3/white-uicss.min.js"></script>
 </body>
 
 </html>
