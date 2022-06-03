@@ -5,16 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>White-UICSS | Container</title>
-  <link rel="stylesheet" href="./css/index.css" />
+  <title>White-UICSS | Form classes</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/white-uicss@1.0.1/white-uicss.min.css" />
   <link rel="stylesheet" href="./css/index.add.css" />
 </head>
 
 <body>
 
   <!-- Navbar starts here -->
-
-  <div class="navbar bg-secondary text-white">
+  <div class="navbar bg-secondary text-white white-ui">
     <nav class="container">
       <a href="./index.html">
         <h1 class="site-title display-f align-items-center">
@@ -25,7 +24,7 @@
       <button id="menu" class="menu display-f align-items-center">|||||</button>
       <ul class="display-f">
         <li>
-          Version 0.1.0
+          Version 1.0.1
         </li>
       </ul>
     </nav>
@@ -33,7 +32,7 @@
   <!-- Navbar ends here -->
 
   <!-- Main section starts here -->
-  <div class="w-100">
+  <div class="w-100 form-section">
     <div class="display-f">
       <!-- Sidenavbar starts here -->
       <div class="side-bar flex-1 bg-secondary-light-9 p-1 pl-2" id="menus">
@@ -58,17 +57,17 @@
           <li class="font-bold font-md mb-2">
             Components
             <ul class="ml-1 font-normal text-gray">
-              <li class="mt-1"><a href="button">Buttons</a></li>
-              <li class="mt-1"><a href="#">Card</a></li>
-              <li class="mt-1"><a href="#">Navbar</a></li>
+              <li class="mt-1"><a href="buttons.html">Buttons</a></li>
+              <li class="mt-1"><a href="cards.html">Card</a></li>
+              <li class="mt-1"><a href="navbars.html">Navbar</a></li>
             </ul>
           </li>
           <li class="font-bold font-md mb-2">
             Forms
             <ul class="ml-1 font-normal text-gray">
-              <li class="mt-1"><a href="#">Overview</a></li>
-              <li class="mt-1"><a href="#">Inputs</a></li>
-              <li class="mt-1"><a href="#">Validation</a></li>
+              <!-- <li class="mt-1"><a href="#">Overview</a></li> -->
+              <li class="mt-1"><a href="forms.html">Inputs</a></li>
+              <!-- <li class="mt-1"><a href="#">Validation</a></li> -->
             </ul>
           </li>
           <li class="font-bold font-md mb-2">
@@ -76,7 +75,8 @@
             <ul class="ml-1 font-normal text-gray">
               <li class="mt-1"><a href="#">README</a></li>
               <li class="mt-1"><a href="#">Contributors</a></li>
-              <li class="mt-1"><a href="#">Contribute</a></li>
+              <li class="mt-1"><a href="https://github.com/The-white-ui/Frontend" target="_blank"
+                  rel="noopener noreferrer">Contribute</a></li>
             </ul>
           </li>
       </div>
@@ -94,7 +94,57 @@
                   creating a wide variety of forms.
                 </p>
               </header>
+              <div class="mt-2">
+                <h1 class="font-lg font-bold mb-1">Forms Examples</h1>
+                <!-- Example Buttons -->
+                <div>
+                  <div class="col-6-sm">
+                    <div class="card p-0">
+                      <div class="form-group">
+                        <input type="text" class="input-field" placeholder="Input field" />
+                        <input type="text" class="input-field" placeholder="Input field" />
+                        <div class="button-container">
+                          <button class="btn-primary">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Example Card codes -->
+                <h1 class="font-lg font-xtra-bold mt-2">Form Codes</h1>
+                <div class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup">
+                  <pre class="language-markup">
+                        <code class="language-markup">
+                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>form-group<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                  <span class="text-red">&lt;input</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>...<span class="text-gray">"</span></span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>input-field<span class="text-gray">"</span></span></span> <span class="text-secondary">placeholder</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>...<span class="text-gray">"</span></span></span>/&gt;</span>
+                                  <span class="text-red">&lt;input</span> <span class="text-secondary">type</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>...<span class="text-gray">"</span></span></span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>input-field<span class="text-gray">"</span></span></span> <span class="text-secondary">placeholder</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>...<span class="text-gray">"</span></span></span>/&gt;</span>
+                                  <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>button-container<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                      <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-primary<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                        Submit
+                                      <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        </code>
+                    </pre>
+                </div>
+              </div>
+              <div class="mt-2">
+                <!-- Example Buttons -->
+                <div>
+                  <div class="card br-none">
+                    <h4 class="font-regular">Available classes in cards:</h4>
+                    <ul>
+                      <li><code class="text-red">.form-group</code>: to create a wrapper for the input fields.</li>
+                      <li><code class="text-red">.input-field</code>: contain padding and margin for input tags.</li>
+                      <li><code class="text-red">.button-container</code>: to create a wrapper for button.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
+
             <a href="https://github.com/The-white-ui/Frontend" target="_blank" rel="noopener noreferrer">
               <button type="button" class="btn btn-outlined-black text-hover-white mt-3 mb-5">Edit on Github</button>
             </a>

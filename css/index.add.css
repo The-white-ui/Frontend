@@ -1,7 +1,7 @@
-.navbar {
+.navbar.white-ui {
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 1000 !important;
 }
 .flex-1 {
   flex: 1;
@@ -39,8 +39,13 @@
   hyphens: none;
   margin-left: -150px !important;
 }
-.button-section .language-markup {
+.button-section .language-markup,
+.card-section .language-markup,
+.form-section .language-markup {
   margin-left: -250px !important;
+}
+.card-section .language-markup {
+  margin-left: -320px !important;
 }
 code pre {
   position: relative;

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White-UICSS | Cards classes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/white-uicss@1.0.1/white-uicss.min.css" />
+    <link rel="stylesheet" href="./css/index.add.css" />
+</head>
+
+<body>
+
+    <!-- Navbar started here -->
+
+    <div class="navbar bg-secondary text-white white-ui">
+        <nav class="container">
+            <a href="./index.html">
+                <h1 class="site-title display-f align-items-center">
+                    <div class="bg-white text-secondary p-1">W</div>
+                    -UICSS
+                </h1>
+            </a>
+            <button id="menu" class="menu display-f align-items-center">|||||</button>
+            <ul class="display-f">
+                <li>
+                    Version 1.0.1
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Navbar ends here -->
+
+    <!-- Main section start here -->
+
+    <div class="w-100 card-section">
+        <div class="display-f">
+            <!-- Sidenavbar started here -->
+            <div class="side-bar flex-1 bg-secondary-light-9 p-1 pl-2" id="menus">
+                <ul class="display-f flex-direction-column w-100">
+                    <li class="font-bold font-md mb-2">
+                        Get Started
+                        <ul class="ml-1 font-normal text-gray">
+                            <li class="mt-1"><a href="get-started.html" class="text-black">Introduction</a></li>
+                            <li class="mt-1"><a href="white-uicss.rar" target="_blank" rel="noopener noreferrer"
+                                    download="white-uicss.rar">Download</a></li>
+                            <li class="mt-1"><a href="explore.html">Explore</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold font-md mb-2">
+                        Layouts
+                        <ul class="ml-1 font-normal text-gray">
+                            <li class="mt-1"><a href="grid.html">Grid</a></li>
+                            <li class="mt-1"><a href="container.html">container</a></li>
+                            <li class="mt-1"><a href="breakpoint.html">BreakPoints</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold font-md mb-2">
+                        Components
+                        <ul class="ml-1 font-normal text-gray">
+                            <li class="mt-1"><a href="buttons.html">Buttons</a></li>
+                            <li class="mt-1"><a href="cards.html">Card</a></li>
+                            <li class="mt-1"><a href="navbars.html">Navbar</a></li>
+                        </ul>
+                    </li>
+                    <li class="font-bold font-md mb-2">
+                        Forms
+                        <ul class="ml-1 font-normal text-gray">
+                            <!-- <li class="mt-1"><a href="#">Overview</a></li> -->
+                            <li class="mt-1"><a href="forms.html">Inputs</a></li>
+                            <!-- <li class="mt-1"><a href="#">Validation</a></li> -->
+                        </ul>
+                    </li>
+                    <li class="font-bold font-md mb-2">
+                        Github
+                        <ul class="ml-1 font-normal text-gray">
+                            <li class="mt-1"><a href="#">README</a></li>
+                            <li class="mt-1"><a href="#">Contributors</a></li>
+                            <li class="mt-1"><a href="https://github.com/The-white-ui/Frontend" target="_blank"
+                                    rel="noopener noreferrer">Contribute</a></li>
+                        </ul>
+                    </li>
+            </div>
+            <!-- Sidenavbar ends here -->
+
+            <!-- Content section started here -->
+            <div class="flex-4">
+                <div class="container mt-2">
+                    <div class="content w-75">
+                        <!-- Cards Header here -->
+                        <header>
+                            <h1 class="font-lg font-bold">Cards</h1>
+                            <p class="font-normal mt-1 text-gray">
+                                White-ui cards provide a flexible content and container with multiple
+                                variants and options.A card is a flexible and extensible content container.
+                                It includes options for headers
+                                and footers.
+                            </p>
+                        </header>
+                        <div class="mt-2">
+                            <h1 class="font-lg font-bold">Cards Examples</h1>
+                            <p class="font-normal mt-1 text-gray">Below is an example of a basic card with mixed content
+                                and a fixed width.</p>
+                        </div>
+                        <div class="mt-2">
+                            <!-- Example Buttons -->
+                            <div>
+                                <div class="card br-none">
+                                    <div class="col-6-sm">
+                                        <div class="card  p-0">
+                                            <div class="card-header">Card Header</div>
+                                            <div class="card-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatem, saepe.</p>
+                                                <button class="btn-primary">Go somewhere</button>
+                                            </div>
+                                            <div class="card-footer">Card Footer</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Example Card codes -->
+                            <h1 class="font-lg font-xtra-bold mt-2">Card Codes</h1>
+                            <div class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup">
+                                <pre class="language-markup">
+                                    <code class="language-markup">
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-header<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card header<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-body<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red">&lt;p&gt;<span class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, saepe.</span>&lt;/p&gt;</span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-primary<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                    Go somewhere
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-footer<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card Footer<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <!-- Example Buttons -->
+                            <div>
+                                <h1 class="font-lg font-xtra-bold mb-1">Card Codes</h1>
+                                <div class="card br-none">
+                                    <div class="row gap-1">
+                                        <div class="col-6-sm">
+                                            <div class="card  p-0">
+                                                <div class="card-header">Card Header</div>
+                                                <div class="card-body">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Voluptatem, saepe.</p>
+                                                    <button class="btn-primary">Go somewhere</button>
+                                                </div>
+                                                <div class="card-footer">Card Footer</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6-sm">
+                                            <div class="card  p-0">
+                                                <div class="card-header">Card Header</div>
+                                                <div class="card-body">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Voluptatem, saepe.</p>
+                                                    <button class="btn-info">Go somewhere</button>
+                                                </div>
+                                                <div class="card-footer">Card Footer</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Example Card codes -->
+                            <div class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup">
+                                <pre class="language-markup">
+                                    <code class="language-markup">
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>row gap-1<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>col-6-sm<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-header<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card header<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-body<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                        <span class="text-red">&lt;p&gt;<span class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, saepe.</span>&lt;/p&gt;</span>
+                                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-primary<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                            Go somewhere
+                                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-footer<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card Footer<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-header<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card header<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-body<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red">&lt;p&gt;<span class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, saepe.</span>&lt;/p&gt;</span>
+                                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-info<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                            Go somewhere
+                                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-footer<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card Footer<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <!-- Example Buttons -->
+                            <div>
+                                <div class="card br-none">
+                                    <div class="col-6-sm">
+                                        <div class="card  p-0">
+                                            <div class="card-header">Card Header</div>
+                                            <div class="card-body">
+                                                <div class="card-image">
+                                                    <img src="./assets/white-uicss-default.png" alt="white-uicss">
+                                                </div>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Voluptatem, saepe.</p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <button class="btn-primary">Go somewhere</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Example Card codes -->
+                            <h1 class="font-lg font-xtra-bold mt-2">Card Codes</h1>
+                            <div class="bg-gray-light-9 mt-2 pt-1 pl-1 pr-1 display-f align-items-center setup-markup">
+                                <pre class="language-markup">
+                                    <code class="language-markup">
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-header<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Card header<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-body<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-image<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                    <span class="text-red">&lt;img</span> <span class="text-secondary">src</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>...<span class="text-gray">"</span></span></span>/&gt;</span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red">&lt;p&gt;<span class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, saepe.</span>&lt;/p&gt;</span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>card-footer<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>
+                                                <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="text-secondary">class</span><span class="text-blue"><span class="text-gray">=</span><span class="text-gray">"</span>btn-primary<span class="text-gray">"</span></span></span><span class="token punctuation">&gt;</span></span>Go somewhere<span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">&gt;</span></span>
+                                            <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                        <span class="text-red"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <!-- Example Buttons -->
+                            <div>
+                                <div class="card br-none">
+                                    <h4 class="font-regular">Available classes in cards:</h4>
+                                    <ul>
+                                        <li><code class="text-red">.card</code>: to create a new card.</li>
+                                        <li><code class="text-red">.card-header</code>: to create a card header inside a
+                                            card.</li>
+                                        <li><code class="text-red">.card-body</code>: to create a wrapper for the owe
+                                            card content.</li>
+                                        <li><code class="text-red">.card-image</code>: to create a wrapper or a
+                                            container for an img inside a card.</li>
+                                        <li><code class="text-red">.card-footer</code>: to create a card footer inside a
+                                            card.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://github.com/The-white-ui/Frontend" target="_blank" rel="noopener noreferrer">
+                        <button type="button" class="btn btn-outlined-black text-hover-white mt-3 mb-5">Edit on
+                            Github</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Content section ends here -->
+    </div>
+    </div>
+    <!-- Main section ends here -->
+    <script src="./js/index.min.js"></script>
+</body>
+
+</html>
